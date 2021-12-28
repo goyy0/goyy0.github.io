@@ -18,7 +18,7 @@ header h1 a {
 	transition: 0.3s;
 }
 header h1 a:hover {
-	color: #DE3131;
+	color: #df2d2d;
 }
 header ul{
 	float: right;
@@ -112,7 +112,7 @@ section h3 {
 	margin: 20px;
 	position: relative;
 }
-section h3: :before{
+section h3::before{
 	content: '';
 	display: block;
 	position: absolute;
@@ -122,13 +122,13 @@ section h3: :before{
 	background-color: #ddd;
 	left: calc(50% - 60px );
 }
-section h3: :after{
+section h3::after{
 	content: '';
 	display: block;
 	position: absolute;
 	bottom: 0;
-	width: 120px;
-	height: 1px;
+	width: 40px;
+	height: 4px;
 	background-color: #F84744;
 	left: calc(50% - 20px );
 }
